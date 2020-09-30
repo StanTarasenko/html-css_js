@@ -1,0 +1,39 @@
+.header {
+    text-align: center;
+    font-size: 24px;
+    height: 30px;
+    background-color: darkgray;
+}
+
+
+/*Intro*/
+.intro {
+    font-size: 22px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.introInputInfo {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.introInputButton {
+    margin-top: 20px;
+}
+
+
+span {
+    margin-top: 10px;
+}
+
+/*Student page*/
+.studentPage {
+    font-size: 22px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+    <title>Работа со списком студентов</title>
+</head>
+
+
+<header class="header">
+    <div class="container">
+        <div class="headerInner">
+            <div class="headerName">Обработка данных студентов</div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="intro">
+        <div class="container">
+            <b>Добавить студента</b>
+            <div class="introInputInfo">
+                <span><input id="introStudentInfo" type="text" placeholder="Введите имя" ></span>
+                <span><input id="introStudentInfo" type="text" placeholder="Введите фамилию" ></span>
+                <span><input id="introStudentInfo" type="text" placeholder="Введите оценки" ></span>
+            </div>
+            <div class="introInputButton">
+                <input id="pushButton" type="button" value="Добавить">
+            </div>
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="studentPage">
+        <div class="container">
+            <b>Список студентов</b>
+    
+            <p id="out">Таблица студентов</p>
+    
+            <button onclick="out()">Обновить</button>
+            
+        </div>
+    </div>
+
+</body>
+</html>
